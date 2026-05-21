@@ -21,6 +21,7 @@ k = int(linii[m+4])
 
 rez = []
 def gen(cuv):
+    //// de modificar cu numarul!!!!
     if len(cuv)>2*k:
         return
     
