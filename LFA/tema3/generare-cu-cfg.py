@@ -1,3 +1,6 @@
+/////// TREBUIE FACUTE MODIFICARI !!!!! 
+
+
 input = open("input.txt").read()
 
 linii = input.split("\n")
@@ -19,9 +22,11 @@ for i in range(3, 3+m):
 S = linii[m+3]
 k = int(linii[m+4])
 
+
+/// DE APELAT FNC DIN CELALALT FISIER
 rez = []
 def gen(cuv):
-    //// de modificar cu numarul!!!!
+    //// de modificar cu numarul!!!! - NEVERMIND, TREBUIE SA APELEZ TRANSFORMAREA FNC DIN CELALALT FISIER
     if len(cuv)>2*k:
         return
     
